@@ -1,0 +1,15 @@
+<h1>List</h1>
+
+<ul *ngIf="planets">
+  <li *ngFor="let planet of planets.results">
+    <img [src]="planet.avatar" alt="">
+    <p>  
+      Name: {{ planet.name }} | 
+      Population: {{ planet. population }} |
+      Diameter: {{ planet.diameter}} |
+      Terrain: {{ planet.terrain}} |
+      Climate: {{ planet.climate}} | 
+      Gravity: {{ planet.gravity}} 
+    </p>
+  </li>
+</ul>

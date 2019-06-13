@@ -1,0 +1,44 @@
+header {
+  padding: 0px 30px;
+  width: 100vw;
+  height: 10vh;
+  color: white;
+  background: #7FDBFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 2em;
+  color: whitesmoke;
+}
+
+header .search {
+  padding-left: 3px;
+  height: 3em;
+  width: 20vw;
+  border: none;
+  border-radius: 2px;
+}
+
+header .show {
+  font-size: 1.4em;
+}
+
+header .show span, header .show a {
+  margin: 0 5px;
+}
+
+header .show a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=header.component.css.map */
